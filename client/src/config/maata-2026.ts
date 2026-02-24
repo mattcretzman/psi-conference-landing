@@ -1,0 +1,76 @@
+import type { ConferenceConfig } from "./types";
+
+export const maata2026: ConferenceConfig = {
+  slug: "maata-2026",
+  event: {
+    name: "MAATA Annual Meeting & Clinical Symposium",
+    shortName: "MAATA 2026",
+    dates: "March 19\u201321, 2026",
+    location: "Des Moines, IA",
+    venue: "Iowa Events Center",
+    boothNumber: undefined,
+    conferenceUrl: "https://www.maata.org/",
+  },
+  team: [],
+  hero: {
+    chip: "MAATA 2026",
+    headline: "Your Athletic Training Career Starts with PSI",
+    subheadline: "Join Planned Systems International at MAATA and discover 200+ athletic trainer positions supporting military readiness at 25+ installations nationwide.",
+    primaryCta: { label: "View Open Positions", scrollTo: "positions" },
+    secondaryCta: { label: "I'm Interested", scrollTo: "contact" },
+  },
+  stats: [
+    { label: "Years Supporting Federal Programs", value: "35+", accent: "navy" },
+    { label: "Athletic Trainer Positions", value: "200+", accent: "red" },
+    { label: "Military Installations", value: "25+", accent: "teal" },
+    { label: "Active Programs", value: "2", accent: "gold" },
+  ],
+  features: [
+    { title: "Competitive Federal Benefits", description: "Comprehensive health insurance, retirement plans, paid time off, and federal holiday schedules that respect your work-life balance.", icon: "Shield" },
+    { title: "Career Growth & Stability", description: "Long-term contract stability with clear advancement paths. PSI has supported military health programs for over 35 years.", icon: "TrendingUp" },
+    { title: "Mission-Driven Work", description: "Directly support soldier readiness through the Army H2F and Marine Corps SMIP programs \u2014 meaningful work with real impact.", icon: "Heart" },
+    { title: "Nationwide Opportunities", description: "Choose from 25+ military installations across the country. Relocate to where you want to live and grow your career.", icon: "MapPin" },
+  ],
+  positions: [
+    { region: "Southeast", program: "H2F", locations: ["Fort Moore, GA", "Fort Liberty, NC", "Fort Campbell, KY"], salaryRange: "$65K\u2013$85K" },
+    { region: "Southwest", program: "H2F", locations: ["Fort Cavazos, TX", "Fort Bliss, TX", "Fort Huachuca, AZ"], salaryRange: "$65K\u2013$85K" },
+    { region: "West", program: "H2F", locations: ["JBLM, WA", "Fort Irwin, CA", "Fort Carson, CO"], salaryRange: "$70K\u2013$90K" },
+    { region: "East", program: "H2F", locations: ["Fort Drum, NY", "Fort Stewart, GA", "Fort Johnson, LA"], salaryRange: "$65K\u2013$85K" },
+    { region: "Midwest", program: "H2F", locations: ["Fort Riley, KS", "Fort Leonard Wood, MO"], salaryRange: "$65K\u2013$85K" },
+    { region: "Pacific", program: "H2F", locations: ["Schofield Barracks, HI"], salaryRange: "$75K\u2013$95K" },
+    { region: "Marine Corps", program: "SMIP", locations: ["Camp Pendleton, CA", "Camp Lejeune, NC", "MCB Quantico, VA"], salaryRange: "$65K\u2013$85K" },
+  ],
+  requirements: [
+    "BOC-certified Athletic Trainer (ATC)",
+    "State licensure (or eligibility) in the position's state",
+    "Bachelor's degree in Athletic Training or related field",
+    "CPR/AED certification (current)",
+    "Ability to pass a federal background check",
+    "U.S. citizenship or permanent residency",
+  ],
+  form: {
+    heading: "Interested? Let us know.",
+    subtitle: "Drop your info below and our recruiting team will follow up with you after MAATA.",
+    privacyNote: "By submitting, you agree PSI may contact you about career opportunities.",
+    intents: [
+      { value: "general_interest", title: "General Interest", subtitle: "Learn more about PSI careers", icon: "Sparkles" },
+      { value: "open_positions", title: "Specific Positions", subtitle: "I know what I'm looking for", icon: "Briefcase" },
+    ],
+    messagePlaceholders: {
+      general_interest: "Tell us what you're interested in learning about PSI's military AT programs.",
+      open_positions: "Tell us your preferred locations (state/base), availability, and any questions.",
+    },
+  },
+  footerLinks: [
+    { label: "H2F Program", href: "https://www.plan-sys.com/", icon: "ShieldCheck" },
+    { label: "SMIP Program", href: "https://www.plan-sys.com/", icon: "HeartHandshake" },
+    { label: "Careers", href: "https://www.athletictrainerjob.com/", icon: "Briefcase" },
+    { label: "About PSI", href: "https://www.plan-sys.com/", icon: "Building2" },
+    { label: "MAATA Conference", href: "https://www.maata.org/", icon: "ExternalLink" },
+  ],
+  seo: {
+    title: "PSI at MAATA 2026 \u2014 Athletic Trainer Careers in Military Health",
+    description: "Visit Planned Systems International at MAATA 2026 in Des Moines. Explore 200+ athletic trainer positions supporting Army H2F and Marine Corps SMIP programs.",
+  },
+  webhookUrl: "https://services.leadconnectorhq.com/hooks/Sram42lXCWRs4rqxkSaz/webhook-trigger/aBiWxiHtD9OTSCVb8j2a",
+};
