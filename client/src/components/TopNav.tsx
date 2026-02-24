@@ -72,8 +72,12 @@ export function TopNav() {
               ))}
             </nav>
             <div className="flex items-center gap-2">
-              <PsiButton variant="secondary" size="sm" className="hidden sm:inline-flex" onClick={() => scrollToId("positions")} rightIcon={<ArrowRight className="h-4 w-4" />}>View Positions</PsiButton>
-              <PsiButton variant="danger" size="sm" onClick={() => scrollToId("contact")} rightIcon={<ArrowRight className="h-4 w-4" />}>{conf.hero.secondaryCta.label}</PsiButton>
+              <PsiButton variant="secondary" size="sm" className="hidden sm:inline-flex" onClick={() => scrollToId("positions")} rightIcon={<ArrowRight className="h-4 w-4" />}>
+                View Positions
+              </PsiButton>
+              <PsiButton variant="danger" size="sm" onClick={() => scrollToId("contact")} rightIcon={<ArrowRight className="h-4 w-4" />}>
+                {conf.hero.secondaryCta.label}
+              </PsiButton>
             </div>
           </div>
         </div>
